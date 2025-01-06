@@ -5,9 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  
+<style>
+  #section1{ 
+ background: url(background.jpg) no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+#welcome{
+  font-size: 3.7em;
+}
+</style>
 </head>
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" class="body bg-light">
   
   <nav class="navbar navbar-expand-sm bg-success navbar-dark sticky-top">
     <div class="container-fluid">
@@ -30,18 +41,18 @@
       </div>
     </div>
   </nav>
-  <div id="section1" class="container-fluid bg-light text-dark text-center" style="padding:60px 20px;">
+  <div id="section1" class="container-fluid bg-light text-white text-center" style="padding:200px 20px;">
     <h1>Hi, Bukarr here...</h1>
-    <h1>Welcome to my Portfolio!</h1>
-    <p>Scroll down.</p>
-    
+    <h1 id="welcome">Welcome to My Portfolio!</h1>
+    <a class="btn btn-outline-light btn-lg mt-4" href="#section2" role="button">Scroll down</a>
+  </div>
   </div>
   
-  <div id="section2" class="container-fluid bg-light text-center" style="padding:30px 20px;">
+  <div id="section2" class="container bg-light text-center" style="padding:30px 20px;">
     <h1>About Me?</h1>
     <button data-bs-toggle="collapse" data-bs-target="#demo" class="btn btn-success">Click here</button>
     <div class="container-fluid">
- <img src="hii.jpg" alt="" style="width: 300px; margin: 20px;"></div>
+ <img class="img-fluid" src="hii.jpg" alt="" style="width: 500px; margin-top: 30px;"></div>
 <div id="demo" class="collapse p-3">
   <p>Hello there! I'm Bukarr, a passionate web developer, graphic designer and a computer science student at the Federal University of Education, Zaria who just begin his tech journey few years ago. I created this portfolio website just to test the skill i've learnt so far and it works out well. Welcome to my portfolio—pls support my works and I promise you I'll be improving. This is just the beginning and the sky is my limit!</p>
 </div>
@@ -52,7 +63,7 @@
   <div id="section3" class="container-fluid bg-light text-dark text-center" style="padding:100px 20px;">
     <h3>My Design Collections.</h3>
     <p> To be updated soon..</p>
-    <img class="img-fluid" src="loading.png" alt="" width="25%" height="90vh">
+    <img class="img-fluid" src="loading.png" alt="" width="25%" height="100vh">
     
   </div>
   <div id="section4" class="container-fluid bg-secondary text-white text-center" style="padding:50px 20px;">
